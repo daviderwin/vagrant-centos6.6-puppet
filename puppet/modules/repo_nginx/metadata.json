@@ -1,0 +1,31 @@
+{
+  "name": "salekseev-repo_nginx",
+  "version": "0.1.1",
+  "source": "https://github.com/salekseev/repo_nginx.git",
+  "author": "Stas Alekseev",
+  "license": "Apache License, Version 2.0",
+  "summary": "Configures the NGINX Yum repository config to point to a local mirror for Enterprise Linux (RHEL, CentOS) clients",
+  "description": "Based off of http://github.com/stahnma/puppet-module-puppetlabs_yum",
+  "project_page": "https://github.com/salekseev/repo_nginx",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "LICENSE": "2b42edef8fa55315f34f2370b4715ca9",
+    "Modulefile": "e052efd248e659133c155ae114ceb721",
+    "README.markdown": "8cda9f476dd75e235731f9640441dd64",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "files/RPM-GPG-KEY-nginx": "15b05d0af252f8127772ceda07b35b1f",
+    "lib/facter/os_maj_version.rb": "a1dd18a64d87e0b349f17a3c9b95dc0b",
+    "manifests/init.pp": "507c951ede3f41723ce277ca457c1008",
+    "manifests/nginx.pp": "abb52553c95ac479647a2fd6ae8800d2",
+    "manifests/params.pp": "a04c94af481002ca613f0fb6a077615b",
+    "manifests/rpm_gpg_key.pp": "fb5034bbee6928910226cf955ee89e94",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "1e7983d220e7a73414f9d9a49999bf59"
+  }
+}

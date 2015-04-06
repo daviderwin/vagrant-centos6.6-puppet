@@ -1,3 +1,5 @@
+include nginx
+
 stage { "prepare":
   before => Stage["main"],
 }

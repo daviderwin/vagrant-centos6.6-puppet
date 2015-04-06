@@ -21,8 +21,8 @@ Vagrant.configure(2) do |config|
   end
 
   config.vm.provision :puppet do |puppet|
-    puppet.module_path        = "modules"
-    puppet.manifests_path     = "manifests"
+    puppet.module_path        = "puppet/modules"
+    puppet.manifests_path     = "puppet/manifests"
     puppet.manifest_file      = "init.pp"
   end
 
